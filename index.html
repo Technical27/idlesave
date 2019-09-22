@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro&display=swap" rel="stylesheet" type="text/css">
+    <link href="index.css" rel="stylesheet" type="text/css">
+  </head>
+  <body>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <script src="index.js"></script>
+    <div class="flex column">
+      <h1>Idle Breakout Save Editor</h1>
+      <div class="flex inline">
+        <input type="text" id="save">
+        <button id="import">import</button>
+      </div>
+      <div class="flex inline">
+        <span>Money: </span>
+        <input type="text" id="money">
+      </div>
+      <div class="flex inline">
+        <span>Gold: </span>
+        <input type="text" id="gold">
+      </div>
+      <button id="gen">Generate save</button>
+      <span id="genText" style="display: none;">Copy the text below: </span>
+      <span id="genSave"></span>
+    </div>
+  </body>
+</html>

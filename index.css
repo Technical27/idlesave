@@ -1,0 +1,53 @@
+* {
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+.column {
+  flex-flow: column nowrap;
+}
+
+.inline {
+  flex-flow: row nowrap;
+}
+
+.flex {
+  display: flex;
+}
+
+#genSave {
+  color: grey;
+  font-family: monospace;
+  max-width: 40%;
+  word-wrap: break-word;
+}
+
+div {
+  margin: 0.3rem;
+}
+
+#gen {
+  margin: 0.3rem;
+  width: 7rem;
+}
+
+button {
+  border: 0.2rem solid black;
+  color: #000;
+  background-color: Transparent;
+  border-radius: 0.3rem;
+  transition: all 0.15s;
+}
+
+button:hover {
+  border-color: #707070;
+  color: #707070;
+}
+
+button:active {
+  border-color: #8a8a8a;
+  color: #8a8a8a;
+}
+
+input {
+  margin: 0 0.6rem;
+}
