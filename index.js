@@ -18,8 +18,8 @@ $(document).ready(() => {
     $('#money').val(money);
   });
   $('#gen').click(() => {
-    $('#genText').show();
     if (!parts) return;
+    $('#genText').show();
     parts[1] = $('#money').val();
     parts[2] = $('#gold').val();
     $('#genSave').html(genSave());
